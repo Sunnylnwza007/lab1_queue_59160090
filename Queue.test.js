@@ -36,3 +36,7 @@ test('สร้าง queue size 1 และ dequeue เลย จะต้อ�
     const queue = new Queue(1);
     expect(queue.dequeue()).toBe(null);
 })
+
+test('อิหยังวะ',function(){
+    const queue = new Queue(3);
+})
